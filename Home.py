@@ -37,5 +37,15 @@ if uploaded_image:
 
     padded_image = ImageOps.expand(image, border=(border_left, border_up, border_right, border_down), fill=(255, 255, 255))
 
-    padded_image
-
+    expanded_image = pipeline(
+        prompt=prompt,
+        height=padded_image.height,
+        width=padded_image.width,
+        guidance_scale=6.5,
+        num_inference_steps=25,
+        image=padded_image,
+        controlnet_conditioning_scale=0.9,
+        control_guidance_end=0.9,
+    ).images[0]
+    
+    expanded_image
