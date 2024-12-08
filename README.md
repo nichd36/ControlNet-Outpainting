@@ -11,3 +11,9 @@ The 'streamlit' branch contains streamlit code. Deployment of the 'streamlit' br
 ![Original image](https://github.com/nichd36/ControlNet-Outpainting/blob/main/original_img.jpeg?raw=true)
 #### After
 ![Altered image](https://github.com/nichd36/ControlNet-Outpainting/blob/main/outpainted_img.jpeg?raw=true)
+
+## Future Improvement
+Based on the examples, a lot of improvement can still be implemented. Some actions can be performed such as:
+1. Using more powerful resources
+2. Implemented better weights
+3. Look into the possibility of improvement by using various image augmentation techniques.
