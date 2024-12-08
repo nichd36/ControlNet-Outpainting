@@ -8,6 +8,6 @@ The 'streamlit' branch contains streamlit code. Deployment of the 'streamlit' br
 
 ## Example
 #### Before
-![alt text]([https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true](https://github.com/nichd36/ControlNet-Outpainting/blob/main/original_img.jpeg))
+![Original image](https://github.com/nichd36/ControlNet-Outpainting/blob/main/original_img.jpeg?raw=true)
 #### After
-![alt text]([https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true](https://github.com/nichd36/ControlNet-Outpainting/blob/main/outpainted_img.jpeg))
+![Altered image](https://github.com/nichd36/ControlNet-Outpainting/blob/main/outpainted_img.jpeg?raw=true)
