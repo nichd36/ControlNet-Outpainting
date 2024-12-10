@@ -1,7 +1,7 @@
 # Outpainting with ControlNet
 
 ## Overview
-A simple experiment with ControlNet in order to perform outpainting.
+A simple experiment with ControlNet in order to perform outpainting. The .ipynb file contains a link to run it in Google Colab. Make sure to use a session with a GPU such as T4.
 
 ## Note
 The 'streamlit' branch contains streamlit code. Deployment of the 'streamlit' branch was canceled due to insufficient resources, particularly the lack of GPU availability.
